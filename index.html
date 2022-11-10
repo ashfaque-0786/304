@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College project </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet" />
+
+    <style>
+     /* BODY SECTION  */
+body {
+    color: white;
+   
+    /* font-weight: bold; */
+    font-family: "Bree Serif", serif;
+    background-color: #ded6d6;
+    margin: 0px 0px;
+  }
+  
+  /* NAVIGATION BAR  */
+  #navbar {
+    display: flex;
+    flex-direction: column;
+   background-color:grey;
+    color:black;
+    height: 80px;
+    
+    font-size: 1.25rem;
+  }
+  
+ ul{
+    position: absolute;
+    top: 0 ;
+    right: 400px;
+ }
+  
+  .item {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 10px 10px ;
+  }
+  
+  .name {
+    /* margin: 20px 20px ; */
+    position: absolute;
+    top: 1.5rem;
+    left: 5rem;
+    font-size: 1.56rem;
+  }
+  #navbar a {
+    color: black;
+    text-decoration: none;
+  }
+  #navbar a:hover,
+  #navbar a:active {
+    color: white;
+    text-decoration: underline;
+  }
+
+  /* HOME SECTION  */
+  
+  #home{
+      display: flex;
+      flex-direction: column;
+      margin-left:  15px;
+    }
+    #home h4{
+       
+        color:black;
+        font-weight: normal;
+    }
+    section p {
+      
+      color: black; 
+    }
+    section #duration{
+     color: black;
+  }
+  section .heading {
+    font-size: 1.25rem;
+    /* font-weight: unset; */
+  }
+  section #image {
+    display: flex;
+    /* flex-direction: column; */
+  }
+  section a {
+    justify-content: center;
+    margin: auto;
+    width: 500px;
+    height: 300px;
+ }
+ section table {
+  color: black;
+ }
+
+ .text_audio{
+  color: black;
+  align-self: center;
+  font-size: 20px;
+ }
+ .text_head{
+  color: black;
+  align-self: center;
+  font-size: 25px;
+ }
+ .sub-sec-3{
+  border: 5px dotted black;
+  box-shadow: 0 0 15px rgb(58, 20, 20);
+  margin: auto;
+  width: max-content;
+  border-radius: 10px;
+  margin-top: 40px;
+  padding: 3px;
+}
+
+
+    </style>
+</head>
+
+<body>
+    <nav id="navbar">
+
+        <div class="name">Department of Computer Application</div>
+
+        <ul>
+
+            <li class="item" id="item-1"><a href="#">Home</a></li>
+            <li class="item" id="item-2"><a href="https://www.wikipedia.org/" target ="_blank">Wifi</a></li>
+            <li class="item" id="item-3"><a href="https://www.wikipedia.org/" target ="_blank">LAN</a></li>
+            <!-- <li class="item" id="item-4"><a href="">Contact Us</a></li> -->
+        </ul>
+
+
+    </nav>
+
+    <section id="home">
+        <h4> <span class ="heading"> Program offered by : </span><a href="http://iul.ac.in/CA" target="_blank"> Department of Computer
+                Application </a></h4>
+
+        <p id="about"> Focusing on expertise in communication systems and information technology and their effective
+            application in business issues,
+            this undergraduate program covers various aspects of compute applications and integrates the latest industry
+            developments in the course curriculum.The graduates of the program have a solid foundation in industrial
+            computing or important aspects of computer science and analyze and optimize the use of latest technologies
+            in the business environment.They are well-equipped to work as professionals in the fields of software
+            development, design and implementation.</p>
+
+        <h4 id="duration"> <span class="heading"> Duration : </span> 3yrs | <a href="http://iul.ac.in/admissioninfo/FeeInd.aspx">Fee
+                Structure</a></h4>
+        <p>
+            <span class="heading"> Eligibility:-</span> <br>
+            A candidate must have passed 10+2 in any discipline with minimum 45% marks in aggregate from a recognized
+            Board/ University.
+        </p>
+        <p>
+            <span class="heading"> Admission Procedure :-</span> <br>
+
+            Admission in all the courses will be based on merit. <br>
+            A course wise merit list will be called for counselling,which eventually would lead to the admission.
+        </p>
+        <p>
+            <span class="heading"> Important Note :-</span> <br>
+            Candidates who have appeared in the qualifying exam in the current year and have applied for admission in any UG/PG program of this University should submit the Marks Sheet of the qualifying examination latest by July/Aug of the same year.
+            
+        </p> <br>
+        <div id="image">
+            <!-- <figcaption>Click on the image</figcaption> -->
+            <a href="https://www.wikipedia.org/" target="_blank">
+            <img title="Wikipedia" src="random.png" alt="error"></a>
+
+        </div> 
+        <br>
+        <br>
+        <!-- AUDIO ARE AS FOLLOW  -->
+       <div class="text_audio">
+       <br>
+        Click the below audio button to hear the National Anthem :-
+        <br>
+        <br>
+        <audio controls>
+            <source src="https://upload.wikimedia.org/wikipedia/commons/5/50/Jana_gana_mana_vocal.ogg" type="audio/ogg">
+        </audio>
+    </div>
+    <!-- VIDEO TAG ARE FOLLOWS -->
+    <br>
+    <div class="text_audio">
+        Click the below video button to see the campus of Integral University :- 
+    </div>
+    <div class="sub-sec-3">
+        <iframe width="760" height="415" src="https://www.youtube.com/embed/vUZ5YfLqJHg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+     <br>
+     <br>
+     <!-- THE TABLE TAG FOR TIME TABLE ARE AS FOLLOWS  -->
+     <div class="text_head">
+        <h2>- Timetable -</h2>
+     </div>
+    <table border="5" cellspacing="0" align="center">
+        <!--<caption>Timetable</caption>-->
+        <tr>
+            <td align="center" height="50"
+                width="100"><br>
+                <b>Day/Period</b></br>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>I<br>9:00-09:50</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>II<br>09:50-10:40</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>III<br>10:40-11:30</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>11:30-12:20</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>IV<br>12:20-1:30</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>V<br>1:30-2:20</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>VI<br>2:20-3:10</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>VII<br>3:10-4:00</b>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Monday</b></td>
+            <td align="center" height="50"> </td>
+            <td align="center" height="50"> </td>
+            <td align="center" height="50">CA-301</td>
+            <td align="center"
+                height="50">CA-307</td>
+                <td rowspan="6" align="center" height="50">
+                    <h2>L<br>U<br>N<br>C<br>H</h2>
+                </td>
+            <td align="center" height="50">CA-302</td>
+            <td align="center" height="50">CA-304</td>
+            <td align="center" height="50">CA-301</td>
+
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Tuesday</b>
+            </td>
+            <td align="center" height="50">CA-307</td>
+            <td align="center" height="50"> </td>
+            <td align="center" height="50">CA-302</td>
+            <td align="center" height="50">CA-303</td>
+            <td colspan="3" align="center" height="50">CA-310</td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Wednesday</b>
+            </td>
+            <td align="center" height="50">CA-302</td>
+            <td align="center" height="50"> </td>
+            <td align="center" height="50">CA-304</td>
+            <td align="center" height="50"> </td>
+            <td align="center" height="50">CA-303</td>
+            <td align="center" height="50"></td>
+            <td align="center" height="50">CA-301</td>
+
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Thursday</b>
+            </td>
+            <td align="center" height="50">CA-307</td>
+            <td align="center" height="50"> </td>
+            <td colspan="2" align="center" height="50">CA-312</td>
+            <td align="center" height="50">CA-304</td>
+            <td align="center" height="50"> </td>
+            <td align="center" height="50">CA-303</td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Friday</b>
+            </td>
+
+            <td align="center" height="50"> </td>
+            <td align="center" height="50"> </td>
+            <td align="center" height="50">CA-301</td>
+            <td align="center" height="50">CA-302</td>
+            <td align="center" height="50"> </td>
+            <td align="center" height="50">CA-304</td>
+            <td align="center" height="50">CA-303</td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Saturday</b>
+            </td>
+            <td colspan="3" align="center" height="50">CA-311</td>
+            <td align="center" height="50">CA-307</td>
+            <td colspan="3" align="center" height="50"> </td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <!-- the infrastructure section start here   -->
+   <div class="text_head"> <h1>-infrastructure of- <br> <a href="https://iul.ac.in/ca/" target="_blank"> Integral University</a></h1></div>
+   
+    <div class="sec-1">
+        
+        <div class="sub-sec-4">
+            <table border="5" cellspacing="0" align="center">
+                    <td align="center">
+                        <img src="https://iul.ac.in/admissioninfo/Images/Hostel1.jpg" height="460" width="400"> 
+                    </td>
+                    <td align="center">
+                         <img src="https://iul.ac.in/admissioninfo/Images/ClassRoom.jpg" height="460" width="400"> 
+                    </td>
+                    <td align="center">
+                        <img src="https://iul.ac.in/admissioninfo/Images/auditorium.jpg" height="460" width="400"> 
+                    </td>
+                   
+            </table>
+        </div>
+    </div>
+
+    <!-- top -->
+    <div class="text_head">
+        <h3>Let's Go To The <a href="#top"><span class="s1">  Top</span></a></h3>
+    </div>
+    </section>
+
+</body>
+
+</html>
